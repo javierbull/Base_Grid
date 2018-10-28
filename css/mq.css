@@ -1,7 +1,12 @@
-@media (min-width: 300px) and (max-width: 600px ) {
+@media (min-width: 300px) and (max-width: 767px ) {
 	body{
 		background-color: gold;
 	}
+
+  .parrafos {
+    grid-template-columns:  1fr;
+    grid-template-rows: auto /100px;
+  }
 
 
 
@@ -13,6 +18,10 @@
 		background-color: tomato;
 	}
 
+  .parrafos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto /100px;
+  }
 
 
 
